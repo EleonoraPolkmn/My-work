@@ -386,7 +386,7 @@ html,body {
 }
 
 .main__interest-items{
-    gap: 15px;
+    column-gap: 15px;
     justify-content: center;
 }
 
@@ -540,5 +540,6 @@ html,body {
     .main__interest-item:hover{
         transform: none;
         margin: 0;
+        row-gap: 15px;
     }
 }
