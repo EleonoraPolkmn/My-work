@@ -386,7 +386,7 @@ html,body {
 }
 
 .main__interest-items{
-    column-gap: 15px;
+    gap: 15px;
     justify-content: center;
 }
 
@@ -533,5 +533,12 @@ html,body {
     }
     .logo::before {
         content: url(../images/svg/logo-dark.svg);
+    }
+}
+
+@media(max-width:576px){
+    .main__interest-item:hover{
+        transform: none;
+        margin: 0;
     }
 }
